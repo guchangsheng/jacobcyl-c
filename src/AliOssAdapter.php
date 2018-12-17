@@ -680,7 +680,7 @@ class AliOssAdapter extends AbstractAdapter
 
 
     /**
-     * Get the signed download url of a file.
+     * Get the signed download url of a file.  //增加支持了options项，用于支持oss流文件响应
      *
      * @param string $path
      * @param int    $expires
@@ -688,10 +688,10 @@ class AliOssAdapter extends AbstractAdapter
      * @param bool   $use_ssl
      * @return string
      */
-    public function getSignedDownloadUrl($path, $expires = 3600, $host_name = '', $use_ssl = false)
+    public function getSignedDownloadUrl($path, $expires = 3600, $host_name = '', $use_ssl = false,$options)
     {
         $object = $this->applyPathPrefix($path);
-        $url = $this->client->signUrl($this->bucket, $object, $expires);
+        $url = $this->client->signUrl($this->bucket, $object, $expires,'GET',$options);
 
         if (! empty($host_name) || $use_ssl) {
             $parse_url = parse_url($url);

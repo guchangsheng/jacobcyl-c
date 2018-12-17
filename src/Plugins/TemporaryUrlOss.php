@@ -31,7 +31,7 @@ class TemporaryUrlOss extends AbstractPlugin
      * @param bool   $use_ssl
      * @return string|false
      */
-    public function handle($path, $expires = 3600, $host_name = '', $use_ssl = false)
+    public function handle($path, $expires = 3600, $host_name = '', $use_ssl = false,$options=null)
     {
         if (! method_exists($this->filesystem, 'getAdapter')) {
             return false;
@@ -41,6 +41,6 @@ class TemporaryUrlOss extends AbstractPlugin
             return false;
         }
 
-        return $this->filesystem->getAdapter()->getSignedDownloadUrl($path, $expires, $host_name, $use_ssl);
+        return $this->filesystem->getAdapter()->getSignedDownloadUrl($path, $expires, $host_name, $use_ssl,$options);
     }
 }
