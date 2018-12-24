@@ -4,7 +4,6 @@
     <list default="true" id="66e5ef7d-495d-406b-a24c-e1a1162d9a71" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AliOssAdapter.php" afterPath="$PROJECT_DIR$/src/AliOssAdapter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Plugins/TemporaryUrlOss.php" afterPath="$PROJECT_DIR$/src/Plugins/TemporaryUrlOss.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,21 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AliOssAdapter.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AliOssAdapter.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AliOssAdapter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="695" column="46" lean-forward="true" selection-start-line="695" selection-start-column="46" selection-end-line="695" selection-end-column="46" />
+            <state relative-caret-position="344">
+              <caret line="193" column="84" lean-forward="false" selection-start-line="193" selection-start-column="84" selection-end-line="193" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemporaryUrlOss.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TemporaryUrlOss.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Plugins/TemporaryUrlOss.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="-7">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,8 +53,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/AliOssAdapter.php" />
         <option value="$PROJECT_DIR$/src/Plugins/TemporaryUrlOss.php" />
+        <option value="$PROJECT_DIR$/src/AliOssAdapter.php" />
       </list>
     </option>
   </component>
@@ -67,8 +66,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="477" />
-    <option name="y" value="90" />
+    <option name="x" value="218" />
+    <option name="y" value="39" />
     <option name="width" value="1932" />
     <option name="height" value="937" />
   </component>
@@ -88,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,6 +110,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,15 +140,16 @@
       <option name="presentableId" value="Default" />
       <updated>1527582775983</updated>
       <workItem from="1527582777350" duration="363000" />
-      <workItem from="1545026018404" duration="283000" />
+      <workItem from="1545026018404" duration="873000" />
+      <workItem from="1545621282915" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="646000" />
+    <option name="totallyTimeSpent" value="1279000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="477" y="90" width="1932" height="937" extended-state="0" />
+    <frame x="218" y="39" width="1932" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -185,6 +185,30 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AliOssAdapter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10928">
+          <caret line="695" column="46" lean-forward="true" selection-start-line="695" selection-start-column="46" selection-end-line="695" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plugins/TemporaryUrlOss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
           <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
@@ -206,18 +230,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AliOssAdapter.php">
+    <entry file="file://$PROJECT_DIR$/src/Plugins/TemporaryUrlOss.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="695" column="46" lean-forward="true" selection-start-line="695" selection-start-column="46" selection-end-line="695" selection-end-column="46" />
+        <state relative-caret-position="-7">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Plugins/TemporaryUrlOss.php">
+    <entry file="file://$PROJECT_DIR$/src/AliOssAdapter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="344">
+          <caret line="193" column="84" lean-forward="false" selection-start-line="193" selection-start-column="84" selection-end-line="193" selection-end-column="84" />
           <folding />
         </state>
       </provider>
