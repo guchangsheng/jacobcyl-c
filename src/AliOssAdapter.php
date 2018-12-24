@@ -156,7 +156,8 @@ class AliOssAdapter extends AbstractAdapter
             $options[OssClient::OSS_CONTENT_TYPE] = Util::guessMimeType($path, $contents);
         }
         try {
-            $this->client->putObject($this->bucket, $object, $contents, $options);
+           # $this->client->putObject($this->bucket, $object, $contents, $options);
+            $this->client->multiuploadFile($this->bucket, $object, $contents, $options);#分片上传支持
         } catch (OssException $e) {
             $this->logErr(__FUNCTION__, $e);
             return false;
@@ -191,8 +192,7 @@ class AliOssAdapter extends AbstractAdapter
             $options[OssClient::OSS_CONTENT_TYPE] = Util::guessMimeType($path, '');
         }
         try {
-            #$this->client->uploadFile($this->bucket, $object, $filePath, $options);
-            $this->client->multiuploadFile($this->bucket, $object, $filePath, $options);#分片上传支持
+            $this->client->uploadFile($this->bucket, $object, $filePath, $options);
         } catch (OssException $e) {
             $this->logErr(__FUNCTION__, $e);
             return false;
